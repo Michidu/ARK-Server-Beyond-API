@@ -248,7 +248,7 @@
       <AdditionalIncludeDirectories>..\version\Core\Public;..\include\Poco;..\include\openssl</AdditionalIncludeDirectories>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
-      <ExceptionHandling>Async</ExceptionHandling>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
